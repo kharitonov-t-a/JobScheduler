@@ -1,0 +1,75 @@
+@charset "windows-1251";
+/* CSS Document */
+
+#header-container{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #cccccc;
+	border-bottom: 1px solid #aaaaaa;
+	overflow: hidden;
+	padding-bottom: 10px;
+	z-index: 999;
+}
+
+#main-container{
+	padding-top: 76px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#auth-container{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.ui-corner-all.text{
+	height: 25px;
+}
+
+.ui-widget{
+	margin-bottom: 10px;
+}
+
+#auth-container input.ui-button{
+	margin: 0;
+}
+
+a.action, a.toRight, a.toLeft{
+	cursor: pointer;
+	color: red;
+}
+
+div#filter, div#search, div#parrent{
+	float: left;
+}
+
+div#search, div#parrent{
+	margin-left: 30px;
+}
+
+#list_tasks table{
+	display: inline-block;
+}
+
+a.add_tasks{
+	display: block;
+}
+
+#form_add_tasks div{
+	margin: 10px;
+}
+
+div.set{
+	display: inline;
+}
+
+a.toRight, a.toLeft, p.centrePage{
+	display: inline-block;
+	font-size: 50px;
+}
+
+a.page span{
+	font-size: 20px;
+}
